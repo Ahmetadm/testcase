@@ -25,61 +25,19 @@ img {
 }
 
 main {
-  padding: 2rem 0;
+  padding: 5rem 0 8rem;
   position: relative;
 }
 
 .backgroundBox {
   background-color: #f1eae5;
-  width: 70%;
-  height: 500px;
+  width: 65%;
+  height: 450px;
   position: absolute;
   right: 0;
   top: 0;
 }
-.article {
-  display: flex;
-  flex-direction: column;
-}
-.article--reverse {
-  flex-direction: column-reverse;
-  justify-content: flex-end;
-}
-.article--reversed .article--title {
-  margin-top: 3rem;
-}
-.article__title {
-  margin-bottom: 0.8em;
-}
-.article__link {
-  display: inline-block;
-  color: black;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 2px;
-  margin-bottom: 4rem;
-}
-
-.article__image--left {
-  margin-bottom: 4rem;
-  position: relative;
-}
 
 
 
-@media (max-width: 768px) {
-  .article__image--left {
-    margin-bottom: 4rem;
-  }
-  .footerCard:not(:last-child) {
-    margin-bottom: 2rem;
-  }
-  .article--reverse {
-    flex-direction: column;
-    justify-content: flex-end;
-  }
-  .article--reverse .article__title {
-    margin-top: 4rem;
-  }
-}
+
