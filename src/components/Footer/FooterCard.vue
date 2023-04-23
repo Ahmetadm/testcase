@@ -21,7 +21,7 @@ export default {
     </div>
 </template>
 
-<style scoped>
+<style >
 
 .footerCard__text {
     margin-bottom: 0;

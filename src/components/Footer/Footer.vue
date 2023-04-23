@@ -53,4 +53,10 @@ footer {
   color: white;
   padding: 2rem 0;
 }
+@media (max-width: 768px) {
+    .col-24.col-md-8:not(:last-child){
+        margin-bottom: 4rem;
+    }
+}
+
 </style>

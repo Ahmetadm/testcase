@@ -1,7 +1,7 @@
 <script setup>
 
 import PageFooter from "@/components/Footer/Footer.vue";
-import PageArticles from "@/components/Articles.vue";
+import PageArticles from "@/components/Article/Articles.vue";
 </script>
 
 <template>
