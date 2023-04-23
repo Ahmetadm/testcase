@@ -1,5 +1,18 @@
+<script>
+export default {
+  name: 'ArticleWithMedia',
+  props: {
+    main: { type: Boolean, required: false },
+    title: { type: String, required: true },
+    text: { type: String, required: true },
+    link: { type: Object, required: false },
+    left: { type: Boolean, required: false }
+  }
+}
+</script>
+
 <template>
-  <div class="article__media" :class="{'article__media--left':left}">
+  <div class="article__media" :class="{ 'article__media--left': left }">
     <slot></slot>
   </div>
   <div class="row">
@@ -18,25 +31,12 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'ArticleWithMedia',
-  props: {
-    main: { type: Boolean, required: false },
-    title: { type: String, required: true },
-    text: { type: String, required: true },
-    link: { type: Object, required: false },
-    left: { type: Boolean, required: false }
-  }
-}
-</script>
-
 <style>
 .article__title {
   margin-bottom: 0.8em;
 }
 h2.article__title {
-   font-size: 1.7rem;
+  font-size: 1.7rem;
 }
 .article__link {
   display: inline-block;
@@ -54,8 +54,8 @@ h2.article__title {
 }
 
 @media (max-width: 768px) {
-    .article__media--left {
-        margin-bottom: 4rem;
-    }
+  .article__media--left {
+    margin-bottom: 4rem;
+  }
 }
 </style>

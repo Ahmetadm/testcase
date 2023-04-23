@@ -1,6 +1,5 @@
 <script>
 export default {
-
   props: {
     src: { type: String, required: true },
     loop: { type: Boolean, required: false, default: false },
