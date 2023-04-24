@@ -18,7 +18,7 @@ export default {
   <div class="row">
     <div
       class="col-24"
-      :class="({ 'col-md-20 offset-md-4': $props.left }, { 'col-md-22 offset-md-2': !$props.left })"
+      :class="({ 'col-md-20 offset-md-4': $props.left,'col-md-22 offset-md-2': !$props.left })"
     >
       <article>
         <h1 v-if="$props.main" class="article__title">{{ $props.title }}</h1>
